@@ -1,1 +1,1 @@
-﻿# Javascript Learnings and practice Code
+﻿# Javascript Learnings and practice Code through mini Project 
