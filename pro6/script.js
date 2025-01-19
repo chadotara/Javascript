@@ -18,7 +18,7 @@ createBtn.addEventListener("click", () => {
   let img = document.createElement("img"); // Create the icon element
   inputBox.className = "input-box";
   inputBox.setAttribute("contenteditable", "true");
-  img.src = "/pro3/images/unchecked.png";
+  img.src = "trash-solid.svg";
 
   // Add the appropriate classes to the icon
   notesContainer.appendChild(inputBox).appendChild(img); // Append the span to the inputBox
