@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  box-sizing: border-box;
+}
+.note-conatiner {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #6c4b5e, #d7907b);
+  color: #e1f2cf;
+  padding-top: 4%;
+  padding-left: 10%;
+}
+.note-conatiner h1 {
+  display: flex;
+  align-items: center;
+  font-size: 35px;
+  color: #fff;
+  font-weight: 600;
+}
+.note-conatiner h1 i {
+  font-size: 70px;
+  margin-right: 20px;
+  outline: 0;
+  color: #e1f2cf;
+}
+.note-conatiner button i {
+  font-size: 40px;
+  margin-right: 20px;
+  color: #fff;
+}
+.note-conatiner button {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(#ed6b43, #f00990);
+  font-size: 18px;
+  outline: 0;
+  color: #fff;
+  border: 0;
+  border-radius: 35px;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  -ms-border-radius: 35px;
+  -o-border-radius: 35px;
+  padding: 15px 26px;
+  margin: 30px 0 20px;
+  cursor: pointer;
+}
+.input-box {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  min-height: 200px;
+  background: #fff;
+  padding: 20px;
+  margin: 20px 0;
+  outline: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  color: #555;
+}
+.notes img {
+width: 25px;  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  cursor: pointer;
+}
