@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="stopwatch">
+            <div class="timer">
+                <span id="minutes">00</span>:<span id="seconds">00</span>:<span id="milliseconds">00</span>
+            </div>
+            <div class="progress-ring">
+                <svg>
+                    <circle class="progress-ring__circle" stroke-width="4" fill="transparent"/>
+                </svg>
+            </div>
+            <div class="controls">
+                <button class="btn start-btn" id="start">Start</button>
+                <button class="btn pause-btn" id="pause">Pause</button>
+                <button class="btn restart-btn" id="restart">Restart</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
