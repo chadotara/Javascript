@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Modern Stopwatch</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -18,9 +19,18 @@
                 </svg>
             </div>
             <div class="controls">
-                <button class="btn start-btn" id="start">Start</button>
-                <button class="btn pause-btn" id="pause">Pause</button>
-                <button class="btn restart-btn" id="restart">Restart</button>
+                <button class="btn start-btn" id="start">
+                    <i class="fas fa-play"></i>
+                    <span>Start</span>
+                </button>
+                <button class="btn pause-btn" id="pause">
+                    <i class="fas fa-pause"></i>
+                    <span>Pause</span>
+                </button>
+                <button class="btn restart-btn" id="restart">
+                    <i class="fas fa-rotate-right"></i>
+                    <span>Reset</span>
+                </button>
             </div>
         </div>
     </div>

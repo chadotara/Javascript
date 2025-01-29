@@ -9,7 +9,10 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(45deg, #0f2027, #203a43, #2c5364);
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+                url('https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80');
+    background-size: cover;
+    background-position: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -59,24 +62,30 @@ body {
 
 .controls {
     display: flex;
-    gap: 1rem;
+    gap: 1.5rem;
     justify-content: center;
 }
 
 .btn {
-    padding: 1rem 2rem;
+    padding: 1.2rem 2rem;
     border: none;
     border-radius: 50px;
     font-size: 1.1rem;
     cursor: pointer;
     transition: all 0.3s ease;
-    text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 1px;
     position: relative;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
     background: rgba(255, 255, 255, 0.1);
     color: white;
+}
+
+.btn i {
+    font-size: 1.3rem;
 }
 
 .btn::before {
@@ -96,17 +105,17 @@ body {
 }
 
 .start-btn {
-    background: #00b894;
+    background: #00C853;
     color: #fff;
 }
 
 .pause-btn {
-    background: #fdcb6e;
+    background: #FFAB00;
     color: #2d3436;
 }
 
 .restart-btn {
-    background: #6c5ce7;
+    background: #6200EA;
     color: white;
 }
 
@@ -127,5 +136,10 @@ body {
     .progress-ring {
         width: 280px;
         height: 280px;
+    }
+    
+    .btn {
+        justify-content: center;
+        padding: 1rem 1.5rem;
     }
 }
