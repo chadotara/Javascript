@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background: #d0deff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product {
+  width: 90%;
+  max-width: 750px;
+  display: flex;
+}
+.gallery {
+  flex-basis: 47%;
+  background: #251e20;
+  transform: scale(1.08);
+  -webkit-transform: scale(1.08);
+  -moz-transform: scale(1.08);
+  -ms-transform: scale(1.08);
+  -o-transform: scale(1.08);
+  box-shadow: -10px 5px 10px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+.gallery img {
+  width: 100%;
+  display: block;
+  padding-top: 100px;
+}
+.detail {
+  flex-basis: 53%;
+  background: #fff;
+  padding: 40px;
+  padding-left: 60px;
+  box-shadow: -10px 5px 10px 10px rgba(0, 0, 0, 0.1);
+  font-size: 13px;
+  font-weight: 500;
+  color: #777;
+}
+.detail h1 {
+  color: #333;
+  font-size: 35px;
+}
+.detail h2 {
+  color: #555;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.detail h3 {
+  color: #00ed74;
+  margin-bottom: 20px;
+  font-weight: 600;
+
+}
+.detail form {
+  font-size: 15px;
+  font-weight: 400;
+}
+.size-select {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+.size-select p {
+  width: 70px;
+}
+.size-select input:checked + span {
+  color: blue;
+  font-weight: 600;
+}
+.size-select input {
+  display: none;
+}
+.size-select span {
+  padding: 5px;
+  margin-right: 10px;
+}
+.color-select {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+.color-select p {
+  width: 75px;
+}
+.color-select span {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.color-1 {
+  background: red;
+}
+.color-2 {
+  background: yellow;
+}
+.color-3 {
+  background: green;
+}
+.color-4 {
+  background: blue;
+}
+.color-select input {
+  display: none;
+}
+.color-select input:checked + span {
+  transform: scale(0.7);
+  -webkit-transform: scale(0.7);
+  -moz-transform: scale(0.7);
+  -ms-transform: scale(0.7);
+  -o-transform: scale(0.7);
+  box-shadow: 0 0 0 4px #fff, 0 0 0 6px #000;
+}
+.quntity-select {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.quntity-select p {
+  width: 75px;
+}
+.quntity-select input {
+  background: #eee;
+  outline: 0;
+  border: 0;
+  padding: 2px 2px 2px 15px;
+  width: 50px;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+form button {
+  background: #553ff0;
+  color: #fff;
+  font-size: 18px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  border: 0;
+  outline: 0;
+  margin-top: 50px;
+  box-shadow: 0 10px 14px rgba(85,63,230,0.24);
+  cursor: pointer;
+}
+.control{
+    position: absolute;
+    bottom: 40px;
+    right: 20px;
+
+
+}
+.btn{
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background: rgba(255, 255, 255, 0.5);
+    margin: 10px;
+    cursor: pointer;
+}
+.btn.active{
+    background: #553ff0;
+}
