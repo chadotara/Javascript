@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(vincentiu-solomon-ln5drpv_ImI-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 0 8%;
+    position: relative;
+
+}
+.logo{
+    width: 120px;
+    padding: 20px 0;
+    cursor: pointer;
+}
+
+.content{
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    color: #fff;
+
+}
+
+.content h1{
+    font-size: 64px;
+    font-weight: 600;
+}
+.content h1 span{
+    color: #ff3745;
+}
+.content button{
+    background: transparent;
+    border: 1px solid #fff;
+    outline: none;
+    padding: 12px 25px;
+    color: #fff;
+}
+.luanch-time{
+    display: flex;
+
+}
+.luanch-time div{
+    flex-basis: 100px;
+
+}
+.luanch-time div  p{
+    font-size: 60px;
+    margin-bottom: -14px;
+
+}
+.rocket{
+    width: 250px;
+    position: absolute;
+    right: 10%;
+    bottom: 0;
+    animation:rocket 4s linear infinite ;
+    -webkit-animation:rocket 8s linear infinite ;
+}
+@keyframes rocket{
+    0%{
+        bottom: 0;
+        left: 30%;
+        opacity: 0;
+    }
+    100%{
+        bottom: 105%;
+        opacity: 1;
+        left: 60%;
+    }
+}
